@@ -13,8 +13,7 @@ public class Main
         boolean c = a < b;
         System.out.println("Первое значение меньше второго : " + c);
 
-        int d = a;
-        int e = d  ++;
+        a ++;
 
         int f = b;
         f -=2;
