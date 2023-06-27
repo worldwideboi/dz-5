@@ -14,9 +14,7 @@ public class Main
         System.out.println("Первое значение меньше второго : " + c);
 
         a ++;
-
-        int f = b;
-        f -=2;
+        b -= 2;
 
         boolean g = a > b;
         System.out.println("Первое значение больше второго : " + g);
